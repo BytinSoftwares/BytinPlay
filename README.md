@@ -1,2 +1,2 @@
-# bytinPlay
-bytinPlay is lite background music player
+# bytinPlay Updater
+This branch contains the auto updater for bytinPlay
