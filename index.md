@@ -1,13 +1,15 @@
-## bytinPlay
+# bytinPlay
 
 Lite background player
 
-# Header 1
-## Header 2
-### Header 3
+## Features
 
-- Bulleted
-- List
+1. Runs on low end machines
+2. Runs on low ram
+3. Plays any video on YouTube
 
-1. Numbered
-2. List
+## Version
+1.0.0
+
+### Changelog - v1.0.0
+- Initial Release
