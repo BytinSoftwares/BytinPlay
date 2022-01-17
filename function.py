@@ -75,11 +75,11 @@ def title(url):
     return(p.find(".//title").text)
 
 def check():
-    if int(requests.get('https://raw.githubusercontent.com/BytinSoftwares/BytinPlay/updater/ver.txt').text) > 100:
+    if int(requests.get('https://raw.githubusercontent.com/BytinSoftwares/BytinPlay/updater/ver.txt').text) > 101:
         try:
             result = MessageBoxW(None, "An update is available, do you want to download it?", "BytinPlay Updater", MB_YESNO)
             if result == IDYES:
-                urllib.request.urlretrieve('https://raw.githubusercontent.com/BytinSoftwares/BytinPlay/updater/updater.exe', 'updater.exe')
+                urllib.request.urlretrieve('https://github.com/BytinSoftwares/bytinPlay/raw/updater/setup.exe', 'setup.exe')
                 import os
                 os.startfile("updater.exe")
                 exit()
